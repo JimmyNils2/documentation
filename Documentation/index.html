@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Google Calendar Script</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Google Calendar Script</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Tutorial</a></li>
+                        <li class="nav__item"><a href="#portfolio" class="nav__link">Prerequisites</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Impact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <h1 class="home__title"><span>HE</span><br>LLO.</h1>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
+                    </div>
+
+                    <img src="assets/img/about.png" alt="" class="home__img">
+                </div>
+            </section>
+            
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                    </div>
+                    <div>
+                        <h2 class="about__subtitle">Google Calendar Script</h2>
+                        
+                        <p class="about__text">This script allows to speed up the creation of events in Google Calendar, add a video meeting and notify the participants and instructor by Gmail. Through a Google Sheets with an established format.</p>
+
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Tutorial</h2>
+
+                <div class="skills__container bd-grid">
+                    <div class="skills__box">
+                        <h3 class="skills__subtitle">Quick Steps</h3>
+                        <ol>
+                            <li>Create a calendar in Google Calendar</li>
+                            <li>Download the Sheet format</li>
+                            <li>Fill the Sheet correctly</li>
+                            <li>Click on Calendar / Send Invites</li>
+                            <li>Wait a few moments depending on the number of events</li>
+                            <li>If all elements are created, the job is done</li>
+                            <li>If not, check the status column if the status is failed, in the error description column there is a brief explanation</li>
+                            <li>check all failed states and repeat from step 4</li>
+                        </ol>
+                        
+                        <h3 class="skills__subtitle">Produced By</h3>
+                        <span class="skills__name">Digital Automation Factory</span>
+                        <span class="skills__name">AC Buenos Aires</span>
+                    </div>
+
+                    <div class="skills__img">
+                        <img src="assets/img/send_invites.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== PORTFOLIO =====-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section-title">Prerequisites</h2>
+
+                <div class="portfolio__container bd-grid">
+                    <div class="portfolio__img">
+                        <img src="assets/img/gmail.png" alt="" style="height: 180px;">
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">Have a Google account</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/calendar.png" alt="" style="height: 180px;">
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">Create a calendar in Google Calendar</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/google_sheets.png" alt="" style="height: 180px;">
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">Download sheet format</a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Impact</h2>
+
+                <div class="contact__container bd-grid">
+                    <div class="contact__info">
+                        <h2 class="contact__subtitle">Manually</h2>
+                        
+                        <ul class="contact__text">
+                            <li>events per week: 25-30 events</li>
+                            <br>
+                            <li>Time to create an event: 5 min</li>
+                            <br>
+                            <li>Weekly time used: 125 - 150 min</li>
+                            <br>
+                            <li>Annual time spent: 6500 - 7800 min</li>
+                        </ul>
+                    </div>
+                    <div class="contact__info">
+                        <h2 class="contact__subtitle">Script</h2>
+                        
+                        <ul class="contact__text">
+                            <li>events per week: 25-30 events</li>
+                            <br>
+                            <li>Time to create an event: 0.46 seg</li>
+                            <br>
+                            <li>Weekly time used: 11.4 - 13.8 seg</li>
+                            <br>
+                            <li>Annual time spent: 720 - 900 seg</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <div class="footer__data">
+                    <h2 class="footer__title">Google Calendar Script</h2>
+                    <p class="footer__text">Punctuality has never been so easy!</p>
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer__title">EXPLORE</h2>
+                    <ul>
+                        <li><a href="#home" class="footer__link">Home</a></li>
+                        <li><a href="#about" class="footer__link">About</a></li>
+                        <li><a href="#skills" class="footer__link">Tutorial</a></li>
+                        <li><a href="#portfolio" class="footer__link">Prerequisites</a></li>
+                        <li><a href="#Contact" class="footer__link">Impact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__data">
+                    <h2 class="footer__title">FOLLOW</h2>
+                    <a href="#" class="footer__social"><i>Digital Automation Factory</i></a>
+                    <a href="#" class="footer__social"><i></i>AC Buenos Aires</a>
+
+                </div>
+
+
+            </div>
+        </footer>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
